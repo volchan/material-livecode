@@ -1,0 +1,9 @@
+<h3><%= @post.title %></h3>
+<p>by <%= @post.author %></p>
+<p><%= posted_at_display(@post.posted_at) %></p>
+<a href="<%= @post.url %>"><%= @post.url %></a>
+
+<%= @post.comments.each do |comment| %>
+  <p><%= comment.author %></p>
+  <p><%= comment.text %></p>
+<% end %>

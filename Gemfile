@@ -9,6 +9,10 @@ gem 'puma'
 gem 'rails', '5.0.3'
 gem 'redis'
 gem 'rest-client'
+gem 'sidekiq'
+gem 'sidekiq'
+gem 'sidekiq-failures', github: 'mhfs/sidekiq-failures'
+gem 'sinatra', require: false
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'

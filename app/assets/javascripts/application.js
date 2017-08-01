@@ -20,3 +20,7 @@ App.cable.subscriptions.create(
     }
   }
 );
+
+$(document).ready(function() {
+  $('.modal').modal();
+});

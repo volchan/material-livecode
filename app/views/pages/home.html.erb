@@ -1,3 +1,18 @@
+<!-- Modal Trigger -->
+  <%= link_to 'Click me !', '#demo-modal', class: 'waves-effect waves-light btn modal-trigger' %>
+
+  <!-- Modal Structure -->
+  <div id="demo-modal" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+    </div>
+  </div>
+
+
 <div class="container">
   <div  id='posts-container' class="row">
     <% @posts.each do |post| %>
